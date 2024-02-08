@@ -167,7 +167,7 @@ header{
   & p{
     text-align: center;
     font-family: NoticiaText-Bold;
-    font-size: 78px;
+    font-size: 72px;
   }
   position: relative;
   z-index: 300;
@@ -276,39 +276,29 @@ header{
   right: 0;
   border-radius: 0 0 0 30px; 
 }
-.glass{
-  background-image: url(Mobe/Group2.png);
-  background-position: 58.4% top;
-  background-size: 760%;
-  border-radius: 0 30px 0 0;
-  width: 80px;
-  height: 80px;
-}
 
 .glassCover{
-  background-color: var(--bggreen);
-  border-radius: 0;
-  top: 0;
-  left: 51%;
-  transform: translate(-1.7%,0);
-  z-index: 200;
-}
-.lowerglass{
-  background-image: url(Mobe/Group2.png);
-  background-position: right 49%;
-  background-size: 760%;
+  background-color: transparent;
   border-radius: 0 30px 0 0;
-  width: 80px;
-  height: 80px;
+  box-shadow: 20px -2px 0 var(--bggreen);
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 56%;
+  transform: translate(-1.7%,0);
+  z-index: 100;
 }
 
 .lowerGlassCon{
-  background-color: var(--bggreen);
-  border-radius: 0;
-  top: 40%;
+  background-color: transparent;
+  border-radius: 0 30px 0 0;
+  box-shadow: 22px 0 var(--bggreen);
+  width: 50px;
+  height: 50px;
+  top: 37%;
   right: 0;
-  transform: translate(0,-17.5%);
-  z-index: 200;
+  transform: translate(0,1%);
+  z-index: 100;
 }
 
 
